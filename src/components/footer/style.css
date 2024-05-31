@@ -1,0 +1,89 @@
+.footer {
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    z-index: 1;
+    color: white;
+    background-color: black;
+    border-top-left-radius: 16px; 
+    border-top-right-radius: 16px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 8vw;
+    margin-top: 10px;
+}
+.footer-column {
+    width: 300px;
+    color: white;
+    text-align: left;
+    flex: 1;
+}
+
+.footer-column h4 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+.footer-column p {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer-column ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.footer-column li {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer-column a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    color: white;
+}
+
+.footer-column a:hover {
+    color: rgb(157, 154, 154);
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-right: 24px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    width: 20px;
+}
+.social-icons i {
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: rgb(157, 154, 154);
+}
+
+.footer-center {
+    margin-left: 8vw;
+}

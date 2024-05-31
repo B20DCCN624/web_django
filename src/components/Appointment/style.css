@@ -1,0 +1,73 @@
+.container-appointment {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.menu-appointment {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.search-input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-button,
+.add-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Màu xanh */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-button:hover,
+.add-button:hover {
+    background-color: #45a049; /* Màu xanh đậm hơn khi hover */
+}
+
+.main-appointment {
+    margin-top: 30px;
+    border: 1px solid #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-appointment {
+    width: 92%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #bdc3c7;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personalInformation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 0 20px;
+}
+
+.date {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.appointmentDate {
+    margin: 0 50px;
+}
+.start-date {
+    margin: 0 50px;
+}
+
+.end-date {
+    margin: 0 50px;
+}

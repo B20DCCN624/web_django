@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Đảm bảo rằng padding và border không làm tăng kích thước của phần tử */
+}
+.main-header-container {
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.main-menu {
+    width: 100%;
+    height: 75px;
+    background-image: linear-gradient(to right, #4A66C9, #a648f8);
+    border-radius: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu li {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px 60px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.main-menu li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    display: block;
+}
+
+.main-menu li:hover {
+    cursor: pointer;
+}
+
+.icon-hospital {
+    margin-right: 16px;
+}
+
+.title-hospital {
+    color: white;
+}

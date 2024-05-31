@@ -1,0 +1,147 @@
+.component-home-container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.search-container select, input {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    padding-left: 8px;
+}
+
+.container-input {
+    display: flex;
+    flex-direction: column;
+    max-width: 30vw;
+}
+
+#form-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.search-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+button {
+    padding: 4px 10px;
+    margin-right: 10px;
+}
+
+.list-product {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Chia thành 3 cột bằng nhau */
+    grid-gap: 10px; /* Khoảng cách giữa các sản phẩm */
+    margin: 0 auto;
+}
+
+.product-container {
+    margin: 10px 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    padding: 100px 0;
+}
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+
+.book-image {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-image img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+
+}
+
+.book-info {
+    padding: 10px;
+}
+
+.book-title {
+    margin: 0;
+    font-size: 15px;
+}
+
+.book-author {
+    margin: 5px 0;
+}
+
+.book-rating {
+    margin: 5px 0;
+}
+
+.star {
+    color: gold;
+}
+
+.star-muted {
+    color: lightgray;
+}
+
+.book-description {
+    margin: 5px 0;
+}
+
+.book-price {
+    margin: 5px 0;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.title {
+    padding-left: 8vw;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 740px) {
+
+    /* CSS cho màn hình nhỏ */
+    .HomeContainer {
+        width: 100vw;
+        margin-left: 0;
+    }
+}
+
+.product-container p {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center; 
+}
+.add-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_plus {
+    font-size: 30px;
+
+}
+
